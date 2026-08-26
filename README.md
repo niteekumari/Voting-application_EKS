@@ -18,19 +18,13 @@ To deploy and manage this application effectively, we leverage Kubernetes and a 
 
 Creating and deploying this cloud-native web voting application with Kubernetes offers a valuable learning experience. Here are some key takeaways:
 
-1. **Containerization**: Gain hands-on experience with containerization technologies like Docker for packaging applications and their dependencies.
-2. 
-3. **Kubernetes Orchestration**: Learn how to leverage Kubernetes to efficiently manage, deploy, and scale containerized applications in a production environment.
-
-4. **Microservices Architecture**: Explore the benefits and challenges of a microservices architecture, where the frontend and backend are decoupled and independently scalable.
-
-5. **Database Replication**: Understand how to set up and manage a MongoDB replica set for data redundancy and high availability.
-
-6. **Security and Secrets Management**: Learn best practices for securing sensitive information using Kubernetes secrets.
-
-7. **Stateful Applications**: Gain insights into the nuances of deploying stateful applications within a container orchestration environment.
-
-8. **Persistent Storage**: Understand how Kubernetes manages and provisions persistent storage for applications with state.
+ **Containerization**: Gain hands-on experience with containerization technologies like Docker for packaging applications and their dependencies.
+**Kubernetes Orchestration**: Learn how to leverage Kubernetes to efficiently manage, deploy, and scale containerized applications in a production environment.
+ **Microservices Architecture**: Explore the benefits and challenges of a microservices architecture, where the frontend and backend are decoupled and independently scalable.
+**Database Replication**: Understand how to set up and manage a MongoDB replica set for data redundancy and high availability.
+**Security and Secrets Management**: Learn best practices for securing sensitive information using Kubernetes secrets.
+**Stateful Applications**: Gain insights into the nuances of deploying stateful applications within a container orchestration environment.
+**Persistent Storage**: Understand how Kubernetes manages and provisions persistent storage for applications with state.
 
 Create EKS cluster with NodeGroup (2 nodes of t2.medium instance type)
 Create EC2 Instance t2.micro (Optional)
